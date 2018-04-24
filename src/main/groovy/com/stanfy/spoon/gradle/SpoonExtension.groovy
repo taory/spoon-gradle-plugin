@@ -56,4 +56,6 @@ class SpoonExtension {
 
   /** Grants all permisions for Android M >= devices */
   boolean grantAllPermissions
+
+  String testSize
 }

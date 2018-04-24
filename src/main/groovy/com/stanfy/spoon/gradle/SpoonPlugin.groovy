@@ -131,7 +131,8 @@ class SpoonPlugin implements Plugin<Project> {
           adbTimeout = config.adbTimeout * 1000
         }
 
-        testSize = SpoonRunTask.TEST_SIZE_ALL
+        //testSize = SpoonRunTask.TEST_SIZE_ALL
+        testSize = config.testSize
 
         if (config.className) {
           className = config.className
